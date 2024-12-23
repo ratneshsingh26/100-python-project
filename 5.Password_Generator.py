@@ -9,7 +9,6 @@ nr_symbols=int(input(f"How many symbols would you like?\n"))
 nr_numbers=int(input(f"How many numbers would you like?\n"))
 
 
-
 password=   [random.choice(letters) for i in range(nr_letters)] + \
             [random.choice(symbols) for i in range(nr_symbols)] + \
             [random.choice(numbers) for i in range(nr_numbers)]
