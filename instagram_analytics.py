@@ -6,6 +6,7 @@ follower = pd.read_json("followers_1.json")
 following = pd.read_json("following.json")
 
 
+
 def extract_followers_value():
     follower_data = []
     for items in follower["string_list_data"]:
